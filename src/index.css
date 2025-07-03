@@ -1,0 +1,139 @@
+
+
+body {
+  background: linear-gradient(135deg, #fceabb, #d6ae7b);
+  font-family: sans-serif;
+}
+.todo-list {
+  
+  margin: 0 auto;           
+  width: 80%;
+  max-width: 500px;
+  background-color: #000000; 
+  padding: 20px;
+  border-radius: 12px;  
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+h1 {
+  font-family: 'Helvetica Neue', Arial, sans-serif; 
+  font-size: 2rem;       
+  font-weight: 700;      
+  line-height: 1.2;      
+  margin-bottom: 1rem;
+  color: #222;        
+  text-align: center;  
+}
+
+.todo-list input {
+  
+  width: 50%;
+  border: 2px solid #ccc;  
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.add-button{
+  margin: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.add-button:hover {
+  background-color:  #218838; 
+}
+
+.add-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5); 
+}
+.no-bullets-list {
+  align-items: center;
+  list-style-type: none; 
+  padding: 0;         
+  margin: 0;             
+}
+.todo-items {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: white;
+  border: 2px solid #ccc;  
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  font-size: 1rem;
+
+
+}
+
+.list-items {
+    width: 80%;
+    display: flex;
+    overflow:auto;
+ 
+}
+.delete-button {
+  margin-left: auto; 
+  background-color: #d9534f;  
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+
+
+.delete-button:hover {
+  background-color: #c9302c;    
+}
+
+.delete-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(217,83,79,0.5); 
+}
+.edit-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.edit-button:hover {
+  background-color:  #2d8acf; 
+}
+
+.edit-button:focus {
+  outline: none;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+}
+.save-btn{
+  margin: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.save-btn:hover {
+  background-color:  #218838; 
+}
+
+.save-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5); 
+}
